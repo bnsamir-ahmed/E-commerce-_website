@@ -1,0 +1,187 @@
+.text-land{
+    margin-top: 140px;
+}
+.landing{
+    height: 90vh;
+    /* margin-top: 78px; */
+}
+button{
+    background-image: url(../image/418-4181862_summer-background-splash-button-splash-green-png.png);
+}
+
+
+
+/* /////////////////////////// */
+.glases{
+    background-image: url(../image/pexels-photo-3846023.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sale{
+    color: red;
+}
+.img{
+    background-image:url(../image/pexels-photo-346751.jpeg) ;
+    
+}
+.img-text{
+        top: 96px;
+            left: 40px;
+}
+
+
+.btn-img{
+    transition: 3s;
+}
+.img-hover:hover .btn-img{
+    background-color: var(--color-secondary);
+    /* transform: translate(0 , 100); */
+
+}
+
+.sec2-text{
+    top: 130px;
+    left: 40px;
+}
+
+.sign-sec{
+    background-color: #011030;
+}
+.input-sign{
+margin: 0 -5px 0 0;
+
+border-radius: 5px 0 0 5px;
+}
+.btn-sign{
+
+border-radius: 0 5px 5px 0 ;
+}
+
+.apple{
+        font-size: 31px;
+            bottom: 12px;
+            left: 20px;
+}
+
+
+
+/* /////////////////////////////////////landShop//////////////// */
+.land-shop{
+    background-image: url(../image/pexels-photo-3765547.jpeg);
+    background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+    }
+     .select:focus{
+        outline: none;
+    }
+     .text-shop{
+            transform: translate(400px, 150px);
+            text-align: center;
+    }
+    .text-shop h3{
+        font-size: 45px;
+    }
+     .color-pShop {
+        color:#d6e0e7 ;
+        letter-spacing: 2px;
+    }
+/* /////////////////////////////////////landShop//////////////// */
+    /* /////////////////blog-land///////////// */
+
+
+    .land{
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 70vh;
+    }
+    .blog{
+        background-image:url(../image/pexels-photo-2778144.jpeg) ;
+           /
+    }
+
+ .date{
+        z-index: -1;
+            top: -35px;
+            color: #9e9e9e94;
+            font-weight: 800;
+ }
+/* //////////////////////////////////////about//////////////// */
+.about{
+    background-image: url(../image/pexels-photo-14825208.jpeg);
+ 
+}
+
+.lay-out{
+    background-color: #00000069;
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+
+    /* /////////////////////////////////////contact//////////////////// */
+    .contact{
+
+
+    }
+    
+.total td{
+width: 100%;
+border:  1px solid #e2e9e1;
+padding: 10px;
+/* font-size: 13px;  */
+}
+.input-all{
+    width: 100%;
+}
+@media screen and (max-width:768px) {
+.text-shop h3 {
+        font-size: 30px;
+    }
+    .img-land{
+        display: none;
+    }
+    .img-text{
+        top: 10px;
+        left: 20px;
+    }
+    .text-land{
+        background-image: url(../image/Deep-Thinking-Woman-PNG-Free-Download.png);
+        background-position: center;
+        background-size: cover;
+        margin-top: 50px;
+
+    }
+    .input-all{
+        /* width: 50%; */
+    }
+    .parent-table{
+        overflow-x: auto;
+    }
+    .landing{
+        height: 75vh;
+        margin-top: 0;
+    }
+
+
+          .text-shop {
+             transform: translate(25px , 155px);
+             /* text-align: center; */
+         }
+                   .color-pShop {
+                      /* color: #d6e0e7; */
+                    font-size: 12px;
+                      letter-spacing: 1px;
+                  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .text-shop {
+            transform: translate(195px, 150px);
+        }
+    
+}
+
